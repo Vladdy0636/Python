@@ -1,0 +1,338 @@
+{
+ "now_update": true,
+ "Bad_words": [
+  "хуй",
+  "шевцов"
+ ],
+ "var_say_ping": [
+  "пінгони",
+  "пингони"
+ ],
+ "How_much_Vova_use": [],
+ "Word_da": [
+  "да",
+  "da",
+  "dа",
+  "da",
+  "dafuq"
+ ],
+ "Vova_ping": "@trexdnevniiembrionsheloveknaigle",
+ "white_list": [
+  "аліса, го в фазму"
+ ],
+ "questions_main": [
+  "хто це",
+  "хто така",
+  "кто такая",
+  "кто"
+ ],
+ "her_name": [
+  "аліса",
+  "алиса",
+  "алiса"
+ ],
+ "name_lub": "світлана",
+ "api": "6927269018:AAFMEOV_5d8KknsaXyc72Ax6lSsDnu7ZA5w",
+ "id_stickers": [
+  "CAACAgIAAxkBAAEKqPllQqfukteq_Jz68jxNo85m0NrF0gACjhkAAqxcSEvTnwXmPu5tAzME"
+ ],
+ "Vlad_id": "660079554",
+ "Vlad_answer": {
+  "Answer_after_call_after_choose": "Владиславе, готова до наступної твоєї команди",
+  "Answer_varians_to_do": "обери, що ти хочеш зробити: 1. Додати нове погане слово, 2. Додати біле слово"
+ },
+ "Good_morning": [
+  "доброго ранку",
+  "добрий ранок",
+  "доброгоРанку"
+ ],
+ "add_bad_word": [
+  "видаляй наступне слово",
+  "нове заборонене слово",
+  "онови список заборонених слів",
+  "нове погане слово"
+ ],
+ "variants_of_start": [
+  "аліса, старт",
+  "аліса, вмикайся",
+  "аліса старт",
+  "аліса вмикайся"
+ ],
+ "variants_of_stop": [
+  "аліса, стоп",
+  "аліса стоп",
+  "аліса вимикайся",
+  "аліса, спати",
+  "аліса спати"
+ ],
+ "id_chats": {
+  "id_derev": "-1001886175387",
+  "id_fam": "-1001947438083"
+ },
+ "All_chats": {
+  "-1001886175387": {
+   "users": {
+    "660079554": {
+     "id": 660079554,
+     "username": null,
+     "custom_name": "Каракатіца",
+     "name": "Washed Slave"
+    },
+    "796953221": {
+     "id": 796953221,
+     "username": "RibachoKR2A",
+     "custom_name": null,
+     "name": "Влад"
+    },
+    "420542674": {
+     "id": 420542674,
+     "username": "sigma_web",
+     "custom_name": "Юля",
+     "name": "Yuliia Riabko"
+    },
+    "775887104": {
+     "id": 775887104,
+     "username": "mid_or_fid1",
+     "custom_name": null,
+     "name": "Андрей"
+    },
+    "489414646": {
+     "id": 489414646,
+     "username": "lnB51",
+     "custom_name": null,
+     "name": "᠌ ᠌ ᠌ ᠌"
+    },
+    "607586876": {
+     "id": 607586876,
+     "username": "trexdnevniiembrionsheloveknaigle",
+     "custom_name": "Мастурбіст",
+     "name": "че"
+    },
+    "693031366": {
+     "id": 693031366,
+     "username": "sonka37",
+     "custom_name": null,
+     "name": "Соня"
+    },
+    "742176679": {
+     "id": 742176679,
+     "username": null,
+     "custom_name": null,
+     "name": "Виолетта"
+    },
+    "777092741": {
+     "id": 777092741,
+     "username": "balab0n4ick",
+     "custom_name": null,
+     "name": "Maksim"
+    },
+    "1087968824": {
+     "id": 1087968824,
+     "username": "GroupAnonymousBot",
+     "custom_name": null,
+     "name": "Group"
+    },
+    "651552724": {
+     "id": 651552724,
+     "username": "Soldierbobuk",
+     "custom_name": null,
+     "name": "Вова"
+    },
+    "916495278": {
+     "id": 916495278,
+     "username": "de4lt_dfn",
+     "custom_name": null,
+     "name": "Рома"
+    }
+   }
+  },
+  "-1002120509790": {
+   "users": {
+    "5460464402": {
+     "id": 5460464402,
+     "username": null,
+     "custom_name": null,
+     "name": "Богдан"
+    },
+    "660079554": {
+     "id": 660079554,
+     "username": null,
+     "custom_name": "/change_name",
+     "name": "Washed Slave"
+    },
+    "532138379": {
+     "id": 532138379,
+     "username": null,
+     "custom_name": null,
+     "name": "Архангел Тімон"
+    },
+    "796953221": {
+     "id": 796953221,
+     "username": "RibachoKR2A",
+     "custom_name": null,
+     "name": "Влад"
+    }
+   }
+  },
+  "-1001947438083": {
+   "users": {
+    "660079554": {
+     "id": 660079554,
+     "username": null,
+     "custom_name": null,
+     "name": "Washed Slave"
+    },
+    "1056022109": {
+     "id": 1056022109,
+     "username": "Perefyrgon",
+     "custom_name": null,
+     "name": "Kирил"
+    },
+    "1272329236": {
+     "id": 1272329236,
+     "username": "GenoFF0404",
+     "custom_name": null,
+     "name": "Карина"
+    },
+    "668001433": {
+     "id": 668001433,
+     "username": null,
+     "custom_name": null,
+     "name": "Яся"
+    },
+    "742176679": {
+     "id": 742176679,
+     "username": null,
+     "custom_name": null,
+     "name": "Виолетта"
+    },
+    "532138379": {
+     "id": 532138379,
+     "username": null,
+     "custom_name": null,
+     "name": "Архангел Тімон"
+    },
+    "1087968824": {
+     "id": 1087968824,
+     "username": "GroupAnonymousBot",
+     "custom_name": null,
+     "name": "Group"
+    },
+    "796953221": {
+     "id": 796953221,
+     "username": "RibachoKR2A",
+     "custom_name": null,
+     "name": "Влад"
+    }
+   }
+  },
+  "660079554": {
+   "users": {
+    "660079554": {
+     "id": 660079554,
+     "username": null,
+     "custom_name": null,
+     "name": "Washed Slave"
+    }
+   }
+  },
+  "668001433": {
+   "users": {
+    "668001433": {
+     "id": 668001433,
+     "username": "Aro_36",
+     "custom_name": null,
+     "name": "Яся"
+    }
+   }
+  },
+  "968598489": {
+   "users": {
+    "968598489": {
+     "id": 968598489,
+     "username": null,
+     "custom_name": null,
+     "name": "Світлана"
+    }
+   }
+  },
+  "5410336624": {
+   "users": {
+    "5410336624": {
+     "id": 5410336624,
+     "username": "mmm1295",
+     "custom_name": null,
+     "name": "Викторка 🖤"
+    }
+   }
+  },
+  "532138379": {
+   "users": {
+    "532138379": {
+     "id": 532138379,
+     "username": null,
+     "custom_name": null,
+     "name": "Архангел Тімон"
+    }
+   }
+  },
+  "394469989": {
+   "users": {
+    "394469989": {
+     "id": 394469989,
+     "username": "pincigerl",
+     "custom_name": null,
+     "name": "Странное Чайное Существо"
+    }
+   }
+  },
+  "5506501770": {
+   "users": {
+    "5506501770": {
+     "id": 5506501770,
+     "username": "Da_poebat_namUwU",
+     "custom_name": null,
+     "name": "ⲥпυ ⲥⲗⲁдⲕⲟ💋"
+    }
+   }
+  },
+  "-1001608607811": {
+   "users": {
+    "607218081": {
+     "id": 607218081,
+     "username": "Wzlomshchyk",
+     "custom_name": null,
+     "name": "Тагір"
+    },
+    "1716514369": {
+     "id": 1716514369,
+     "username": "Jostik2099",
+     "custom_name": null,
+     "name": "Ростислав"
+    },
+    "660079554": {
+     "id": 660079554,
+     "username": null,
+     "custom_name": null,
+     "name": "Angry Slave"
+    },
+    "1549031811": {
+     "id": 1549031811,
+     "username": "Kuzma_20",
+     "custom_name": null,
+     "name": "Богдан"
+    }
+   }
+  },
+  "6422421360": {
+   "users": {
+    "6422421360": {
+     "id": 6422421360,
+     "username": null,
+     "custom_name": null,
+     "name": "Asif"
+    }
+   }
+  }
+ }
+}

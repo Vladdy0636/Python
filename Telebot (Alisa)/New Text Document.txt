@@ -1,0 +1,78 @@
+#universal code for bots, all that you need, just edit you telegram API in data.json
+import json
+import datetime
+import telebot
+import time
+from threading import Thread
+import asyncio
+import threading
+
+#some modules for better editing
+import Alisa_initialisation
+import Alisa_funct
+import Alisa_check
+
+#load bot, data and get id
+
+bot = Alisa_initialisation.load_bot()
+data = Alisa_initialisation.load_data()
+config = Alisa_initialisation.load_config()
+logs = Alisa_initialisation.load_logs()
+
+id_bot = bot.get_me()
+print(id_bot)
+
+@bot.message_handler(content_types=['new_chat_members'])
+def welcome_new_member(message):
+    if message.json['new_chat_participant']['id'] == id_bot:
+        await bot.send_message(message.chat.id, "Hi there")
+        Alisa_funct.add_new_chat(message, data, config, logs)
+    else:
+        new_member_name = message.json['new_chat_member']['first_name']
+        bot.send_message(message.chat.id, f"Hi there {new_member_name}")
+        Alisa_funct.add_new_member(message, data, config, logs)
+        
+@bot.message_handler(commands=['status'])
+def check_status(message):
+    if Alisa_check.check_is_it_developer(message, data) == True:
+        bot.send_message(message.chat.id, "Now, I'm working")
+    else:
+        Alisa_funct.save_alarm(message, data, logs)
+
+@bot.message_handler(commands=['ping_all'])
+def ping_all(message, data):
+    bot.send_message(message.chat.id, "Here, all users that I know")
+    Alisa_funct.ping_all_users(message, data)
+
+#_____
+@bot.message_handler(commands=['change_name'])
+def fist_step_change_name(message):
+    user_id = str(message.from_user.id)
+    bot.reply_to(message, "Чудово, надішліть мені ваше ім'я")
+    time_send = time.time()
+    bot.register_next_step_handler(message, lambda message_1: Alisa_funct.change_custom_name(message, data, config, bot, message_1, time_send, user_id))
+    
+    
+@bot.message_handler(commands=['Add_bad_word'])
+def change_name_for_user(message):
+    #not ready
+    #bot.register_next_step_handler(message, data, bot, config)
+    pass
+
+@bot.message_handler(commands=['Delete_bad_word'])
+def change_name_for_user():
+    pass
+
+@bot.message_handler(func=lambda message: True)
+async def check_words(message):
+    print("funct start")
+    chat_id = str(message.chat_id)
+    for word in message:
+        if word.lower() in data[chat_id]['bad_words']:
+            bot.send_message(message.chat.id, "ай, яй, яй. Так не можна говорити !")
+            Alisa_funct.send_perdatel(message, data, config, bot)
+            break
+
+# Start the bot's polling
+bot.infinity_polling()
+
